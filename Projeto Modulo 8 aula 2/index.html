@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body> 
+    <div>
+        <h1>Preencha o Formulário abaixo: </h1>
+    </div>
+    <div class="div_form">
+        <form>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                
+                <div class="dados_pess">
+                    <section>
+                        <div class="nome_sobre">
+                            <label>
+                                <div>
+                                    Nome: <br>
+                                    <input type="text" class="name">
+                                </div>
+                            </label>
+                                
+                            <label>
+                                <div>
+                                    Sobrenome: <br>
+                                    <input type="text" class="last_name">
+                                </div>
+                            </label>
+                        </div>
+                        
+
+                        <label>
+                            <div>
+                                Endereço: <br>
+                                <input type="text" class="address">
+                            </div>
+                        </label>
+
+                        <div class="city_state">
+                            <label>
+                                <div>
+                                    Cidade: <br>
+                                    <input type="text" class="city"> 
+                                </div>
+                            </label>
+                            <label>
+                                <div>
+                                    Estado: <br>
+                                    <select class="state">
+                                        <option value="sp">São Paulo</option>
+                                        <option value="rj">Rio de Janeiro</option>
+                                        <option value="mg">Minas Gerais</option>
+                                        <option value="am">Amazonas</option>
+                                        <option value="sc">Santa Catarina</option>
+                                    </select>
+                                </div>
+                            </label>
+                        </div>
+                        
+                    </section>
+                    
+                    
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <div class="dados_prof">
+                    <div id="name_bold">
+                        Nome do Cargo:
+                    </div>
+                     <br> <br>
+                    <div class="positions">
+                        <label>
+                            <div><input type="radio" name="cargo">Garencia</div>
+                        </label>
+                        <label>
+                            <div><input type="radio" name="cargo">Financeiro</div>
+                        </label>
+                        <label>
+                            <div><input type="radio" name="cargo">Recepção</div>
+                        </label>
+                        <label>
+                            <div><input type="radio" name="cargo">Administrativo</div>
+                        </label>
+                        <label>
+                            <div><input type="radio" name="cargo">Jurídico</div>
+                        </label>
+                    </div>
+                    
+                    <br><br>
+                    <div id="name_bold">
+                        Area de interesse:
+                    </div>
+                    <br><br>
+                    <div class="interest" >
+                        <label>
+                            <div><input type="checkbox">Computação</div>
+                        </label>
+                        <label>
+                            <div><input type="checkbox">Biologia</div>
+                        </label>
+                        <label>
+                            <div><input type="checkbox">Meio Ambiente</div>
+                        </label>
+                        <label>
+                            <div><input type="checkbox">Engenharia</div>
+                        </label>
+                        <label>
+                            <div><input type="checkbox">História</div>
+                        </label>
+                    </div>
+                    
+                    
+                </div> 
+                <div class="min_curriculum">
+                    <label>
+                        <div id="name_bold">
+                            <div id="min_text">Mini-Curriculo:</div>  <br>
+                            <textarea name="textarea"></textarea>
+                        </div>
+                    </label>
+                </div>
+                
+            </fieldset>
+    
+           <div>
+               <button>Enviar</button>
+           </div>
+
+        </form>
+    </div>
+</body>
+</html>

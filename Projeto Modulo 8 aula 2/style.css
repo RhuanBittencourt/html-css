@@ -1,0 +1,121 @@
+body {
+   background-image: url("88.jpg");
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+
+form {
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #C0C0C0;
+    width: 900px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 30px;
+}
+
+.dados_pess {
+    padding: 20px;
+}
+
+.dados_prof {
+    padding: 20px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+fieldset {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+
+
+.nome_sobre {
+    display: flex;
+    
+}
+.name {
+    margin-right: 30px;
+    width: 200px;
+}
+.last_name {
+    width: 300px;
+}
+.address {
+    width: 540px;
+}
+.city {
+    width: 250px;
+    margin-right: 90px;
+}
+
+.city_state {
+    display: flex;
+}
+.state {
+    width: 200px;
+}
+
+.positions {
+    display: flex;
+}
+.positions label {
+    padding-right: 20px;
+}
+
+.interest {
+    display: flex;
+}
+
+.interest label {
+    padding-right: 15px;
+}
+
+.min_curriculum {
+    
+    padding: 20px;
+}
+textarea {
+    width: 550px;
+    height:200px;
+    border-radius: 20px;
+    
+}
+.min_curriculum {
+    
+}
+
+legend {
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#name_bold {
+    font-weight: bold;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    
+}
+button:hover {
+    background-color: #1C1C1C;
+    color: white;
+}
+
+
