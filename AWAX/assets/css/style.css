@@ -559,72 +559,73 @@ CSS DE ÁREA ESPECIFICA
     background-color: #B28756;
 }
 
-/*Section company*/
+/*Section companies*/
 
 .bg-company {
     padding-top: 0;
     padding-bottom: 0;
 }
-.section-company {
-    display: flex;
-    margin: auto;
-    max-width: 880px;
-    padding: 0px;
+.section-companies {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }
-.section-company img {
-    flex: 1;
-    padding: 30px;
+.section-companies--area {
+    display: flex;
+    align-items: center;
+}
+
+.section-company {
+    flex:1;
+    align-items: center;
 }
 
 /* Price Lists*/
-
-.section-price--lists {
-    display: flex;
-    margin: auto;
+#bg-price {
+    background-color: #dad8d8;
 }
-.section-price--lists .price-list{
+.section-price {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    background-color:#ffff;
-    margin: 10px ;
-    padding: 40px;
-    height: 100%;
 }
-.section-price--lists .price-list--title {
+.section-price--item {
+    flex:1;
+    background-color: #ffff;
+    margin-right: 20px;
+    padding: 20px;
+    text-align: center;   
+}
+.section-price--item:last-child {
+    margin-right:0;
+}
+.price-list--title {
     text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 600;
-    
+    font-size:13px;
+    font-weight:600;
 }
-.section-price--lists .price-list--price {
-    font-size: 25px ;
+.price-list--price {
     font-weight: bold;
-    padding-top: 10px;
-
+    font-size:22px;
+    margin-top:10px;
 }
-.price-list .price-list--time {
-    color: rgb(114, 114, 114);
-    font-size: 13px;
-    margin-bottom:20px ;
+.price-list--time {
+    color:#999;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
-.price-list .price-list--items {
-    font-size: 15px;
-    color: rgb(87, 85, 85) ;
-    padding-bottom: 5px;
+.price-list--items {
+    font-size: 12px;
 }
-.price-list .price-list--bar {
+.section-price .price-list--bar {
     background-color: rgb(75, 72, 72);
     width: 12px;
     height: 1px;
-    margin:5px
+    margin:5px;
+    
 }
-.price-list .button {
+.section-price .button {
     background-color:rgb(75, 72, 72);
     padding: 15px 30px;
 }
-.price-list .button:hover {
+.section-price .button:hover {
     background-color:rgb(75, 72, 72);
     padding: 15px 30px;
     background-color: #B28756;
@@ -706,4 +707,155 @@ CSS DE ÁREA ESPECIFICA
     width: 100%;
     height: 1px;
     margin-top: 20px;
+}
+
+/* SOME FACTS */
+.facts h1 {
+    font-size: 36px;
+    color: #B28756;
+}
+
+.some-facts {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.facts {
+    flex: 1;
+    text-align: center;  
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.facts h4 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.facts p {
+    font-size: 13px;
+    color: rgb(114, 114, 114);
+}
+/* SOCIAL MIDIA*/
+
+.section-social--midia {
+    border-bottom: 1px solid #ddd;
+}
+.social-midia {
+    display: flex;
+    justify-content: center;
+}
+.social1,.social2,.social3,
+.social4,.social5,.social6 {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.social-midia  {
+    text-transform: uppercase;
+    color: #727272;
+}
+.social1 {
+   padding-right: 50px;
+}
+.social1 a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+.social2 a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color:#32c5f0 ;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.social3 a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color:#127bb4 ;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.social4 a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color:#336296 ;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.social5 a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color:#e74037 ;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.social6 a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color:#b71b28 ;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contact .contact-message {
+    margin-top: 50px;
+}
+.contact input {
+    border: 0;
+    outline: 0px;
+    border-bottom: 1px solid rgb(116, 112, 112);
+    margin-top: 30px;
+}
+.contact .name-email {
+    display: flex;
+}
+.contact input {
+    margin-right: 30px;
+    padding-bottom: 10px;
+}
+.contact-name input, .contact-email input {
+    width: 300px;
+}
+.contact-subject input {
+    width: 630px;
+}
+.contact-message input {
+    width: 630px;
+}
+::placeholder {
+    color: #727272;
+
+}
+.contact a {
+    margin-top: 50px;
+    margin-left: 240px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
